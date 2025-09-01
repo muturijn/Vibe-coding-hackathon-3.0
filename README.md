@@ -144,4 +144,4 @@ curl -X POST -F "entry=Feeling tired today" http://localhost:5000/add_entry
 👨‍💻 Author
 
 Developed by James Njuguna
-📧 Contact: your-email@example.com
+📧 Contact: jamesnjugunamuturi847@gmail.com
