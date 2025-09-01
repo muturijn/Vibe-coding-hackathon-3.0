@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HealthGuard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>🩺 HealthGuard – Symptom Tracker</h2>
+
+  <form action="/add_entry" method="POST">
+    <textarea name="entry" placeholder="Describe how you feel..." required></textarea>
+    <button type="submit">Save</button>
+  </form>
+
+  <h3>Symptom Trends</h3>
+  <canvas id="symptomChart"></canvas>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
